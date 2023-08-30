@@ -38,15 +38,18 @@ body {
   border: 1px solid black;
   border-radius: 8px;
   background-color: #f4f4f4;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.item:hover {
+button {
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
   background-color: #ddd;
   transform: scale(1.05);
 }
